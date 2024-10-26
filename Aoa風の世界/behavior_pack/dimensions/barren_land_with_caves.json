@@ -11,7 +11,7 @@
       "generator": {
         "type": "noise",
         "settings": {
-          "biome": "custom:red_terra_biome",  // 新しいバイオームを指定
+          "biome": "custom:red_terra_biome",
           "caves": {
             "enabled": true,
             "size": 2,
