@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20",
+  "minecraft:biome": {
+    "name": "custom:willow_swamp",
+    "precipitation": "rain",
+    "temperature": 0.8,
+    "downfall": 0.9,
+    "surface_material": "minecraft:grass",
+    "features": [
+      {
+        "type": "tree",
+        "tree": "custom:willow_tree",
+        "probability": 0.3
+      }
+    ]
+  }
+}
