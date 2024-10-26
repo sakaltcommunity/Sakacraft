@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:lithium_sword"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " L ",
+      " L ",
+      " S "
+    ],
+    "key": {
+      "L": {
+        "item": "custom:lithium"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "custom:bone_sword",
+      "count": 1
+    }
+  }
+}
