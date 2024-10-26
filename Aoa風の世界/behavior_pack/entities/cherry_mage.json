@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:entity": {
     "description": {
-      "identifier": "your_namespace:cherry_mage",
+      "identifier": "custom:cherry_mage",
       "is_spawnable": true,
       "is_summonable": true,
       "health": 67,
