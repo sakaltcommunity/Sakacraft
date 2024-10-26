@@ -36,8 +36,5 @@
         }
       }
     },
-    "minecraft:loot": {
-      "table": "custom:willow_mage_loot"
-    }
   }
 }
