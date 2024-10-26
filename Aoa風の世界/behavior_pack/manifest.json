@@ -3,7 +3,7 @@
   "header": {
     "description": "Aoa風の世界ビヘイビアーパック",
     "name": "Aoa風の世界",
-    "uuid": "579dd1ef-e259-2034-d743-364335d8f595",  // ユニークな値に変更
+    "uuid": "579dd1ef-e259-2034-d743-364335d8f595",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 0]
   },
@@ -11,7 +11,7 @@
     {
       "description": "Aoa風の世界のビヘイビア",
       "type": "data",
-      "uuid": "579dd1ef-e259-2034-d743-364335d8f596",  // ユニークな値に変更
+      "uuid": "579dd1ef-e259-2034-d743-364335d8f596",
       "version": [1, 0, 0]
     }
   ]
