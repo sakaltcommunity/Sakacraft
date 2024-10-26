@@ -7,7 +7,7 @@
       "is_summonable": true,
       "ambient_sound": "entity.saratombo.idle",
       "damage": 10,
-      "max_health": 24  // ゾンビのHPは20なので、これを超える
+      "max_health": 24
     },
     "components": {
       "minecraft:health": {
@@ -18,6 +18,15 @@
       },
       "minecraft:movement": {
         "value": 0.3
+      },
+      "minecraft:spawn_rules": {
+        "condition": {
+          "condition": "minecraft:match_random",
+          "probability": 0.001776
+        },
+        "biomes": [
+          "custom:red_terra_biome"
+        ]
       }
     }
   }
