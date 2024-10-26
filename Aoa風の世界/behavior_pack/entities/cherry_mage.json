@@ -30,6 +30,9 @@
           "condition": "minecraft:match_random",
           "probability": 0.00176
         }
+        "biomes": [
+          "custom:willow_swamp"
+        ]
       }
     },
     "events": {
