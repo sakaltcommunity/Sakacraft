@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "custom:candy_biome"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0.2,
+        "temperature": 0.8
+      },
+      "minecraft:surface_builder": {
+        "top_material": "minecraft:pink_concrete",
+        "under_material": "minecraft:light_blue_concrete",
+        "depth": 3
+      },
+      "minecraft:water": {
+        "water_color": "#44aaff",
+        "water_fog_color": "#2288cc"
+      },
+      "minecraft:spawn_rules": {
+        "creatures": [
+          {
+            "type": "custom:cherry_mage",
+            "weight": 5,
+            "min_group_size": 1,
+            "max_group_size": 2
+          }
+        ]
+      }
+    }
+  }
+}
