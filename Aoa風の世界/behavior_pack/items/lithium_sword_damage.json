@@ -11,7 +11,7 @@
     },
     "minecraft:weapon": {
       "damage": 9,
-      "max_durability": 2000  // 耐久力を2000に設定
+      "max_durability": 2000
     }
   }
 }
