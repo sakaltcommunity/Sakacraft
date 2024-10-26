@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:lithium_pickaxe",
+      "is_experimental": false,
+      "is_silk_touchable": false
+    },
+    "components": {
+      "minecraft:icon": "lithium_pickaxe"
+    },
+    "minecraft:pickaxe": {
+      "efficiency": 10,
+      "mining_level": "custom:li",
+      "max_durability": 2000
+    }
+  }
+}
