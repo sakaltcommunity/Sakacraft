@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20",
+  "dimension": {
+    "barren_land_with_caves": {
+      "type": "overworld",
+      "ambient_light": 0,
+      "infinity": false,
+      "height": 128,
+      "min_y": 0,
+      "max_y": 256,
+      "generator": {
+        "type": "noise",
+        "settings": {
+          "biome": "custom:red_terra_biome",  // 新しいバイオームを指定
+          "caves": {
+            "enabled": true,
+            "size": 2,
+            "frequency": 3
+          },
+          "noise": {
+            "scale": 1.0,
+            "elevation": {
+              "min_y": 0,
+              "max_y": 128
+            }
+          }
+        }
+      }
+    }
+  }
+}
