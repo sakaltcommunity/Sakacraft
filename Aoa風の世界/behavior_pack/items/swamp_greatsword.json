@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:swamp_greatsword",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:damage": {
+        "value": 17
+      },
+      "minecraft:durability": {
+        "max_durability": 1774
+      },
+      "minecraft:cooldown": {
+        "category": "attack",
+        "duration": 26
+      },
+      "minecraft:attack": {
+        "damage": 17,
+        "speed": 0.7
+      },
+      "minecraft:on_hit": {
+        "effects": [
+          {
+            "effect": "slowness",
+            "duration": 5,
+            "amplifier": 1,
+            "target": "enemy"
+          }
+        ]
+      }
+    }
+  }
+}
