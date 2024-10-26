@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "custom:red_terra_biome",
+      "name": "赤のテラコッタバイオーム",
+      "ambient_color": [200, 0, 0],
+      "height": "normal",
+      "temperature": 1.8,
+      "precipitation": "none"
+    },
+    "components": {
+      "minecraft:grass_color": [211, 0, 0],
+      "minecraft:foliage_color": [211, 0, 0],
+      "minecraft:water_color": [0, 63, 94],
+      "minecraft:water_fog_color": [0, 0, 32],
+      "minecraft:top_block": "minecraft:red_terracotta",
+      "minecraft:fill_block": "minecraft:deepslate",
+      "minecraft:spawn_rules": {
+        "type": "custom",
+        "biome": "custom:red_terra_biome"
+      }
+    }
+  }
+}
