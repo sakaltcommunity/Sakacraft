@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20",
+  "minecraft:particle": {
+    "description": {
+      "identifier": "custom:willow_particle"
+    },
+    "components": {
+      "minecraft:particle_texture": "willow_particle",
+      "minecraft:particle_color": {
+        "color": [0.5, 0.2, 0.8]
+      },
+      "minecraft:particle_lifetime": {
+        "duration": 20
+      }
+    }
+  }
+}
