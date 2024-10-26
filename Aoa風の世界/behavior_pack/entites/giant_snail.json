@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "custom:giant_snail",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "ambient_sound": "entity.giant_snail.idle",
+      "damage": 8,
+      "max_health": 40
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 40
+      },
+      "minecraft:attack": {
+        "damage": 8
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:spawn_rules": {
+        "condition": {
+          "condition": "minecraft:match_random",
+          "probability": 0.00016  // スポーン確率を設定（適宜調整）
+        },
+        "biomes": [
+          "custom:red_terra_biome"
+        ]
+      }
+    }
+  }
+}
