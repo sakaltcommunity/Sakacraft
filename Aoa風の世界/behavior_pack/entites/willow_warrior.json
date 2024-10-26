@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "custom:willow_warrior",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "ambient_sound": "entity.willow_warrior.idle",
+      "damage": 5.75,
+      "max_health": 30
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 30
+      },
+      "minecraft:attack": {
+        "damage": 5.75
+      },
+      "minecraft:movement": {
+        "value": 0.5
+      },
+      "minecraft:spawn_rules": {
+        "condition": {
+          "condition": "minecraft:match_random",
+          "probability": 0.000176
+        },
+        "biomes": [
+          "custom:willow_biome"
+        ]
+      }
+    }
+  }
+}
