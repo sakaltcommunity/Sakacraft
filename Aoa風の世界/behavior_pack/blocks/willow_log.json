@@ -5,14 +5,14 @@
       "identifier": "custom:willow_log"
     },
     "components": {
-      "minecraft:destroy_time": 2.0,        // 硬度
+      "minecraft:destroy_time": 2.0,
       "minecraft:explosion_resistance": 10.0,
       "minecraft:material_instances": {
         "*": {
           "texture": "willow_log"
         }
       },
-      "minecraft:preferred_tool": "axe"     // 適正ツール
+      "minecraft:preferred_tool": "axe"
     }
   }
 }
