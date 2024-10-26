@@ -1,0 +1,18 @@
+{
+  "format_version": "2",
+  "header": {
+    "description": "Aoa風の世界リソースパック",
+    "name": "Aoa風の世界",
+    "uuid": "579dd1ef-e259-2034-d743-364335d8f593",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Aoa風の世界のリソース",
+      "type": "data",
+      "uuid": "579dd1ef-e259-2034-d743-364335d8f594",
+      "version": [1, 0, 0]
+    }
+  ]
+}
