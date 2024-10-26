@@ -12,7 +12,7 @@
     },
     "components": {
       "minecraft:movement": {
-        "value": 0.1
+        "value": 0.45
       },
       "minecraft:attack": {
         "damage": 7,
