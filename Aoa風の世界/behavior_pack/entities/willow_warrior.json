@@ -7,7 +7,8 @@
       "is_summonable": true,
       "ambient_sound": "entity.willow_warrior.idle",
       "damage": 5.75,
-      "max_health": 30
+      "max_health": 30,
+      "minecraft:family": ["monster"]
     },
     "components": {
       "minecraft:health": {
@@ -25,8 +26,13 @@
           "probability": 0.000176
         },
         "biomes": [
-          "custom:willow_swanp"
+          "custom:willow_swamp"
         ]
+      },
+      "minecraft:experience_reward": {
+        "on_death": {
+          "range": [5, 10]
+        }
       }
     }
   }
