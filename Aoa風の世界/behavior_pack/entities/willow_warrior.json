@@ -33,6 +33,13 @@
         "on_death": {
           "range": [5, 10]
         }
+      },
+      "minecraft:behavior": {
+        "minecraft:attack": {
+          "target": "minecraft:player",
+          "range": 15,
+          "attack_type": "melee"
+        }
       }
     }
   }
