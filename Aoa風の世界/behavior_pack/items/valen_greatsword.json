@@ -15,11 +15,27 @@
       },
       "minecraft:cooldown": {
         "category": "attack",
-        "duration": 26  // クールダウンの時間（1.3秒 x 20 ticks）
+        "duration": 26  // クールダウン時間1.3秒
       },
       "minecraft:attack": {
-        "damage": 15,  // 基本の攻撃力を設定
-        "speed": 0.7   // 攻撃スピードが遅くなる
+        "damage": 18,  // ダメージを18に設定
+        "speed": 0.7
+      },
+      "minecraft:on_hit": {
+        "effects": [
+          {
+            "effect": "nausea",  // 吐き気効果
+            "duration": 5,
+            "amplifier": 1,
+            "target": "enemy"
+          },
+          {
+            "effect": "poison",  // 毒効果
+            "duration": 5,
+            "amplifier": 1,
+            "target": "enemy"
+          }
+        ]
       }
     }
   }
