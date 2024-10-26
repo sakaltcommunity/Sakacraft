@@ -22,7 +22,7 @@
       "minecraft:spawn_rules": {
         "condition": {
           "condition": "minecraft:match_random",
-          "probability": 0.00016  // スポーン確率を設定（適宜調整）
+          "probability": 0.00016
         },
         "biomes": [
           "custom:red_terra_biome"
