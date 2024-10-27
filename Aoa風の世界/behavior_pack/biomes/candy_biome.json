@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:biome": {
     "description": {
-      "identifier": "custom:candy_biome"
+      "identifier": "saka:candy_biome"
     },
     "components": {
       "minecraft:climate": {
@@ -21,7 +21,7 @@
       "minecraft:spawn_rules": {
         "creatures": [
           {
-            "type": "custom:cherry_mage",
+            "type": "saka:cherry_mage",
             "weight": 5,
             "min_group_size": 1,
             "max_group_size": 2
