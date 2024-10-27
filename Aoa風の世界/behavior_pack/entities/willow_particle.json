@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:particle": {
     "description": {
-      "identifier": "custom:willow_particle"
+      "identifier": "saka:willow_particle"
     },
     "components": {
       "minecraft:particle_texture": "willow_particle",
