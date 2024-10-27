@@ -9,7 +9,7 @@
       "biome_source": {
         "biomes": [
           {
-            "biome": "custom:candy_biome",
+            "biome": "saka:candy_biome",
             "weight": 10
           }
         ]
