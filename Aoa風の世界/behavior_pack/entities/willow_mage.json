@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:entity": {
     "description": {
-      "identifier": "custom:willow_mage",
+      "identifier": "saka:willow_mage",
       "is_spawnable": true,
       "is_summonable": true,
       "max_health": 40,
@@ -21,16 +21,16 @@
       },
       "minecraft:spawn_rules": {
         "biomes": [
-          "custom:willow_swanp"
+          "saka:willow_swanp"
         ]
       },
       "minecraft:projectile": {
-        "identifier": "custom:willow_blast",
-        "particle": "custom:willow_particle"
+        "identifier": "saka:willow_blast",
+        "particle": "saka:willow_particle"
       },
       "minecraft:behavior": {
         "minecraft:attack": {
-          "target": "custom:willow_mage",
+          "target": "sakk:willow_mage",
           "range": 10,
           "attack_type": "ranged"
         }
