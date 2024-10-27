@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:item": {
     "description": {
-      "identifier": "custom:valen_greatsword",
+      "identifier": "saka:valen_greatsword",
       "category": "equipment"
     },
     "components": {
