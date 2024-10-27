@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:item": {
     "description": {
-      "identifier": "custom:netherstone_sword",
+      "identifier": "saka:netherstone_sword",
       "category": "equipment"
     },
     "components": {
