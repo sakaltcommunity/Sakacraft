@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:entity": {
     "description": {
-      "identifier": "custom:saratombo",
+      "identifier": "saka:saratombo",
       "is_spawnable": true,
       "is_summonable": true,
       "ambient_sound": "entity.saratombo.idle",
@@ -25,7 +25,7 @@
           "probability": 0.001776
         },
         "biomes": [
-          "custom:red_terra_biome"
+          "saka:red_terra_biome"
         ]
       },
       "minecraft:behavior": {
