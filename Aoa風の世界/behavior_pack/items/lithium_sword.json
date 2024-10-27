@@ -9,5 +9,9 @@
     "components": {
       "minecraft:icon": "lithium_sword"
     }
+    "minecraft:weapon": {
+      "damage": 9,
+      "max_durability": 2000
+    }
   }
 }
