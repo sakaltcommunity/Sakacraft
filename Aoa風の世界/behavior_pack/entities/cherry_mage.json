@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:entity": {
     "description": {
-      "identifier": "custom:cherry_mage",
+      "identifier": "saka:cherry_mage",
       "is_spawnable": true,
       "is_summonable": true,
       "health": 67,
