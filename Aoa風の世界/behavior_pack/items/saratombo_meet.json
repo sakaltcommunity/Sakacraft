@@ -2,7 +2,7 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "custom:saratombo_meet"
+      "identifier": "saka:saratombo_meet"
     },
 
     "components": {
