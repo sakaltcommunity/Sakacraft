@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:item": {
     "description": {
-      "identifier": "custom:lithium_sword",
+      "identifier": "saka:lithium_sword",
       "is_experimental": false,
       "is_silk_touchable": false
     },
