@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:biome": {
     "description": {
-      "identifier": "custom:red_terra_biome",
+      "identifier": "saka:red_terra_biome",
       "name": "赤のテラコッタバイオーム",
       "ambient_color": [200, 0, 0],
       "height": "normal",
@@ -18,7 +18,7 @@
       "minecraft:fill_block": "minecraft:deepslate",
       "minecraft:spawn_rules": {
         "type": "custom",
-        "biome": "custom:red_terra_biome"
+        "biome": "saka:red_terra_biome"
       }
     }
   }
