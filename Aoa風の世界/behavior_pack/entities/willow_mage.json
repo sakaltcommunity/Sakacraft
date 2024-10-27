@@ -30,7 +30,7 @@
       },
       "minecraft:behavior": {
         "minecraft:attack": {
-          "target": "sakk:willow_mage",
+          "target": "saka:willow_mage",
           "range": 10,
           "attack_type": "ranged"
         }
