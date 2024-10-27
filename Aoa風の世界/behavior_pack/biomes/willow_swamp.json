@@ -1,7 +1,7 @@
 {
   "format_version": "1.20",
   "minecraft:biome": {
-    "name": "custom:willow_swamp",
+    "name": "saka:willow_swamp",
     "precipitation": "rain",
     "temperature": 0.8,
     "downfall": 0.9,
