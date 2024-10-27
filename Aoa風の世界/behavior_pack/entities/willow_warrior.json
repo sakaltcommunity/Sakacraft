@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:entity": {
     "description": {
-      "identifier": "custom:willow_warrior",
+      "identifier": "saka:willow_warrior",
       "is_spawnable": true,
       "is_summonable": true,
       "ambient_sound": "entity.willow_warrior.idle",
